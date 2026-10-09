@@ -1,0 +1,16 @@
+# 接入真实模型时才需要安装这些；核心链路不依赖它们。
+# 按需取用，不必全装。
+
+# 真实句向量（会连带 torch / transformers，体积较大）
+sentence-transformers>=2.2.0
+
+# Rerank 模型
+FlagEmbedding>=1.2.0
+
+# 服务与界面
+fastapi>=0.110
+uvicorn>=0.29
+gradio>=4.20
+
+# 评测与可视化（可选，用于画帕累托前沿）
+matplotlib>=3.8

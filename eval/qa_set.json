@@ -1,0 +1,1980 @@
+[
+  {
+    "qid": "q001",
+    "question": "员工手册适用于哪些人？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q002",
+    "question": "入职后多久之内要激活内部系统账号？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q003",
+    "question": "连续旷工多久公司可以解除劳动合同？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q004",
+    "question": "工作满十年年假有几天？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q005",
+    "question": "年假跨年没休完怎么处理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q006",
+    "question": "公司规定几点开始上班？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q007",
+    "question": "请病假需要提供什么材料？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q008",
+    "question": "员工手册修订后怎么生效？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q009",
+    "question": "弹性工作制最晚几点到岗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q010",
+    "question": "忘记打卡一个月最多能补几次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q011",
+    "question": "休息日加班按几倍计算？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q012",
+    "question": "加班换的调休多久之内要用完？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q013",
+    "question": "一年最多能请多少天事假？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q014",
+    "question": "婚假有几天？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q015",
+    "question": "一个月迟到几次算半天事假？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q016",
+    "question": "什么情况会被认定为旷工？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q017",
+    "question": "访客进入办公区要走什么流程？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-conduct"
+  },
+  {
+    "qid": "q018",
+    "question": "门禁卡丢了应该怎么办？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-conduct"
+  },
+  {
+    "qid": "q019",
+    "question": "会议纪要要在多久之内发出去？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-conduct"
+  },
+  {
+    "qid": "q020",
+    "question": "办公区里禁止做哪些事？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-conduct"
+  },
+  {
+    "qid": "q021",
+    "question": "跟客户沟通能不能用个人微信？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-conduct"
+  },
+  {
+    "qid": "q022",
+    "question": "系统密码多久要更换一次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-se-baseline"
+  },
+  {
+    "qid": "q023",
+    "question": "口令长度最少要多少位？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-se-baseline"
+  },
+  {
+    "qid": "q024",
+    "question": "屏幕锁定的等待时间不能超过多久？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-se-baseline"
+  },
+  {
+    "qid": "q025",
+    "question": "收到冒充领导要求转账的邮件怎么办？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-se-baseline"
+  },
+  {
+    "qid": "q026",
+    "question": "往外部邮箱发大附件有什么限制？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-se-baseline"
+  },
+  {
+    "qid": "q027",
+    "question": "电脑中了病毒应该找谁处理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-se-baseline"
+  },
+  {
+    "qid": "q028",
+    "question": "入职当天要带哪些材料？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-onboarding"
+  },
+  {
+    "qid": "q029",
+    "question": "信息安全考试多少分算合格？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-onboarding"
+  },
+  {
+    "qid": "q030",
+    "question": "试用期一般多长时间？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-onboarding"
+  },
+  {
+    "qid": "q031",
+    "question": "转正评估包含哪几个维度？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-onboarding"
+  },
+  {
+    "qid": "q032",
+    "question": "工资每个月几号发放？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-onboarding"
+  },
+  {
+    "qid": "q033",
+    "question": "交通补贴一个月多少钱？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-welfare"
+  },
+  {
+    "qid": "q034",
+    "question": "补充医疗保险家属能不能参加？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-welfare"
+  },
+  {
+    "qid": "q035",
+    "question": "健康体检多久组织一次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-welfare"
+  },
+  {
+    "qid": "q036",
+    "question": "一线业务岗的通讯补贴是多少？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-welfare"
+  },
+  {
+    "qid": "q037",
+    "question": "社保和公积金从什么时候开始缴？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-welfare"
+  },
+  {
+    "qid": "q038",
+    "question": "一线城市出差住宿每晚最多报销多少？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q039",
+    "question": "出差期间的市内交通费怎么算？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q040",
+    "question": "发票丢了还能报销吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q041",
+    "question": "费用发生后多久内要提交报销单？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q042",
+    "question": "两万元以上的报销要谁审批？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q043",
+    "question": "坐飞机要提前几个工作日申请？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q044",
+    "question": "哪些费用是明确不给报销的？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q045",
+    "question": "次年预算编制什么时候启动？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-budget"
+  },
+  {
+    "qid": "q046",
+    "question": "季度预算执行率低于多少要写说明？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-budget"
+  },
+  {
+    "qid": "q047",
+    "question": "支出超过预算余额系统会怎么处理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-budget"
+  },
+  {
+    "qid": "q048",
+    "question": "预算考核在绩效里占多少权重？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-budget"
+  },
+  {
+    "qid": "q049",
+    "question": "公司预算分为哪几类？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-budget"
+  },
+  {
+    "qid": "q050",
+    "question": "五万元以上的采购要走什么流程？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-procurement"
+  },
+  {
+    "qid": "q051",
+    "question": "付款申请要哪四单齐全？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-procurement"
+  },
+  {
+    "qid": "q052",
+    "question": "供应商的标准账期是多少天？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-procurement"
+  },
+  {
+    "qid": "q053",
+    "question": "预付款最多能付多少比例？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-procurement"
+  },
+  {
+    "qid": "q054",
+    "question": "引入新供应商要审核哪些内容？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-procurement"
+  },
+  {
+    "qid": "q055",
+    "question": "发票抬头写错了能不能报？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-invoice"
+  },
+  {
+    "qid": "q056",
+    "question": "发票查验要在多久之内完成？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-invoice"
+  },
+  {
+    "qid": "q057",
+    "question": "一千元以上的发票要附什么？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-invoice"
+  },
+  {
+    "qid": "q058",
+    "question": "发票开错了要怎么红冲？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-invoice"
+  },
+  {
+    "qid": "q059",
+    "question": "哪些发票财务一律不受理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-invoice"
+  },
+  {
+    "qid": "q060",
+    "question": "公司一共设置了几个专业职级？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q061",
+    "question": "绩效拿 A 最多能涨多少工资？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q062",
+    "question": "年终奖的基数是几个月工资？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q063",
+    "question": "绩效为 C 的员工有年终奖吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q064",
+    "question": "入职不满半年的员工年终奖怎么算？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q065",
+    "question": "职级晋升一年开展几次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q066",
+    "question": "薪酬信息能不能跟同事讨论？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q067",
+    "question": "绩效考核里业绩指标占多少权重？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-performance"
+  },
+  {
+    "qid": "q068",
+    "question": "A 档最多占部门人数的多少？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-performance"
+  },
+  {
+    "qid": "q069",
+    "question": "对考核结果有异议怎么申诉？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-performance"
+  },
+  {
+    "qid": "q070",
+    "question": "连续两年考核为 D 会怎么样？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-performance"
+  },
+  {
+    "qid": "q071",
+    "question": "行为指标包含哪几个维度？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-performance"
+  },
+  {
+    "qid": "q072",
+    "question": "技术岗位面试一共有几轮？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-recruitment"
+  },
+  {
+    "qid": "q073",
+    "question": "背景调查主要核查什么？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-recruitment"
+  },
+  {
+    "qid": "q074",
+    "question": "接受了 offer 又反悔会怎样？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-recruitment"
+  },
+  {
+    "qid": "q075",
+    "question": "内部推荐成功能拿多少奖金？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-recruitment"
+  },
+  {
+    "qid": "q076",
+    "question": "面试官多久之内要提交评价？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-recruitment"
+  },
+  {
+    "qid": "q077",
+    "question": "公司每年提供不少于多少学时的培训？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-training"
+  },
+  {
+    "qid": "q078",
+    "question": "外部培训超过多少钱要分管副总批？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-training"
+  },
+  {
+    "qid": "q079",
+    "question": "培训费用超过一万要签什么协议？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-training"
+  },
+  {
+    "qid": "q080",
+    "question": "担任导师需要什么条件？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-training"
+  },
+  {
+    "qid": "q081",
+    "question": "职业发展有几条通道？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-training"
+  },
+  {
+    "qid": "q082",
+    "question": "员工离职后账号多久注销？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-account"
+  },
+  {
+    "qid": "q083",
+    "question": "权限复核多久开展一次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-account"
+  },
+  {
+    "qid": "q084",
+    "question": "高权限账号多久复核一次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-account"
+  },
+  {
+    "qid": "q085",
+    "question": "使用特权账号操作要不要录屏？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-account"
+  },
+  {
+    "qid": "q086",
+    "question": "审批人能不能审批自己发起的单据？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-account"
+  },
+  {
+    "qid": "q087",
+    "question": "P0 故障多久之内要响应？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-ops"
+  },
+  {
+    "qid": "q088",
+    "question": "生产环境变更安排在什么时间？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-ops"
+  },
+  {
+    "qid": "q089",
+    "question": "故障复盘要在多久之内完成？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-ops"
+  },
+  {
+    "qid": "q090",
+    "question": "备份数据保留多久？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-ops"
+  },
+  {
+    "qid": "q091",
+    "question": "恢复演练多久开展一次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-ops"
+  },
+  {
+    "qid": "q092",
+    "question": "固定资产一年盘点几次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-device"
+  },
+  {
+    "qid": "q093",
+    "question": "离职时设备没还会怎么样？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-device"
+  },
+  {
+    "qid": "q094",
+    "question": "设备坏了能不能自己拆机？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-device"
+  },
+  {
+    "qid": "q095",
+    "question": "归还的设备数据怎么处理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-device"
+  },
+  {
+    "qid": "q096",
+    "question": "一个迭代周期是多长？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-devprocess"
+  },
+  {
+    "qid": "q097",
+    "question": "核心模块的单元测试覆盖率要求多少？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-devprocess"
+  },
+  {
+    "qid": "q098",
+    "question": "迭代中途要插入新需求怎么办？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-devprocess"
+  },
+  {
+    "qid": "q099",
+    "question": "需求上线后要观察多久才能关闭？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-devprocess"
+  },
+  {
+    "qid": "q100",
+    "question": "需求评审多久开展一次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-devprocess"
+  },
+  {
+    "qid": "q101",
+    "question": "主干分支叫什么名字？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-code"
+  },
+  {
+    "qid": "q102",
+    "question": "核心链路的代码要几个评审人通过？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-code"
+  },
+  {
+    "qid": "q103",
+    "question": "提交信息要带什么前缀？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-code"
+  },
+  {
+    "qid": "q104",
+    "question": "哪些内容禁止提交到代码库？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-code"
+  },
+  {
+    "qid": "q105",
+    "question": "静态扫描发现高危问题怎么处理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-code"
+  },
+  {
+    "qid": "q106",
+    "question": "常规发布窗口安排在什么时间？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-release"
+  },
+  {
+    "qid": "q107",
+    "question": "灰度发布的顺序是怎样的？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-release"
+  },
+  {
+    "qid": "q108",
+    "question": "灰度期间错误率超过基线多少要回滚？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-release"
+  },
+  {
+    "qid": "q109",
+    "question": "回滚操作要在多久内完成？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-release"
+  },
+  {
+    "qid": "q110",
+    "question": "法定节假日前几天不安排发布？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-release"
+  },
+  {
+    "qid": "q111",
+    "question": "数据一共分为几个级别？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-dataclass"
+  },
+  {
+    "qid": "q112",
+    "question": "哪些数据属于绝密级？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-dataclass"
+  },
+  {
+    "qid": "q113",
+    "question": "机密数据的访问日志保留多久？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-dataclass"
+  },
+  {
+    "qid": "q114",
+    "question": "数据销毁要不要留存记录？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-dataclass"
+  },
+  {
+    "qid": "q115",
+    "question": "员工离职时工作数据怎么处理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-dataclass"
+  },
+  {
+    "qid": "q116",
+    "question": "发现安全事件多久内要通知值班人员？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-incident"
+  },
+  {
+    "qid": "q117",
+    "question": "涉及个人信息泄露多久要报送监管？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-incident"
+  },
+  {
+    "qid": "q118",
+    "question": "安全事件处置分为哪几个阶段？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-incident"
+  },
+  {
+    "qid": "q119",
+    "question": "事件复盘报告多久内完成？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-incident"
+  },
+  {
+    "qid": "q120",
+    "question": "什么情形直接判定为重大及以上事件？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-incident"
+  },
+  {
+    "qid": "q121",
+    "question": "什么样的合同需要法务审核？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-contract"
+  },
+  {
+    "qid": "q122",
+    "question": "合同金额超过一百万要谁审批？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-contract"
+  },
+  {
+    "qid": "q123",
+    "question": "用印内容和审批文本不一致怎么办？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-contract"
+  },
+  {
+    "qid": "q124",
+    "question": "合同签署后原件由谁保管？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-contract"
+  },
+  {
+    "qid": "q125",
+    "question": "法务审核的时限是多久？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-contract"
+  },
+  {
+    "qid": "q126",
+    "question": "收到删除个人信息的请求多久要响应？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-privacy"
+  },
+  {
+    "qid": "q127",
+    "question": "哪些属于敏感个人信息？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-privacy"
+  },
+  {
+    "qid": "q128",
+    "question": "个人信息出境要满足什么条件？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-privacy"
+  },
+  {
+    "qid": "q129",
+    "question": "用户拒绝提供非必要信息能拒绝服务吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-privacy"
+  },
+  {
+    "qid": "q130",
+    "question": "委托第三方处理个人信息要签什么？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-privacy"
+  },
+  {
+    "qid": "q131",
+    "question": "供应商资质不全多久内不能再申请？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-supplier"
+  },
+  {
+    "qid": "q132",
+    "question": "供应商的结算周期是多少天？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-supplier"
+  },
+  {
+    "qid": "q133",
+    "question": "交付延期十五天违约金怎么算？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-supplier"
+  },
+  {
+    "qid": "q134",
+    "question": "来料检验不合格多久内要退换？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-supplier"
+  },
+  {
+    "qid": "q135",
+    "question": "常温库的温度控制在什么范围？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-warehouse"
+  },
+  {
+    "qid": "q136",
+    "question": "同城订单的配送时效是多久？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-warehouse"
+  },
+  {
+    "qid": "q137",
+    "question": "盘点差异超过多少要上报？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-warehouse"
+  },
+  {
+    "qid": "q138",
+    "question": "在线客服首次响应不超过多久？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-service"
+  },
+  {
+    "qid": "q139",
+    "question": "重大投诉多久之内要上报？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-service"
+  },
+  {
+    "qid": "q140",
+    "question": "七天无理由退货从哪天开始算？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-service"
+  },
+  {
+    "qid": "q141",
+    "question": "A 级供应商的抽检比例是多少？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-quality"
+  },
+  {
+    "qid": "q142",
+    "question": "不合格品有哪几种处置方式？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-quality"
+  },
+  {
+    "qid": "q143",
+    "question": "报废金额超过多少要质量经理批？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-quality"
+  },
+  {
+    "qid": "q144",
+    "question": "控制点的检验记录要谁签字？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-quality"
+  },
+  {
+    "qid": "q145",
+    "question": "跨境贸易优先用什么币种结算？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-settlement"
+  },
+  {
+    "qid": "q146",
+    "question": "超过五十万美元的付款要谁审批？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-settlement"
+  },
+  {
+    "qid": "q147",
+    "question": "外币敞口超过多少要做套保？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-settlement"
+  },
+  {
+    "qid": "q148",
+    "question": "跨境付款需要提供哪些单证？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-settlement"
+  },
+  {
+    "qid": "q149",
+    "question": "库存商品采用什么方法计价？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-inventory"
+  },
+  {
+    "qid": "q150",
+    "question": "存货成本包不包括仓储费用？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-inventory"
+  },
+  {
+    "qid": "q151",
+    "question": "存货减值测试多久做一次？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-inventory"
+  },
+  {
+    "qid": "q152",
+    "question": "库龄多久会被认定为呆滞库存？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-inventory"
+  },
+  {
+    "qid": "q153",
+    "question": "出差住酒店一晚上能报多少钱？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q154",
+    "question": "报销单据过期了还能补吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q155",
+    "question": "打车票还能单独拿去报账吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-travel"
+  },
+  {
+    "qid": "q156",
+    "question": "公司一年调几次薪水？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q157",
+    "question": "年底能拿到多少奖金？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q158",
+    "question": "P级一共划了多少档？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-compensation"
+  },
+  {
+    "qid": "q159",
+    "question": "绩效考核多久搞一次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-performance"
+  },
+  {
+    "qid": "q160",
+    "question": "考核垫底会有什么后果？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-performance"
+  },
+  {
+    "qid": "q161",
+    "question": "想换个方向发展走什么路子？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-training"
+  },
+  {
+    "qid": "q162",
+    "question": "新人进来有师傅带吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "hr"
+    ],
+    "gold_doc": "acme-training"
+  },
+  {
+    "qid": "q163",
+    "question": "审批的人能不能同时有操作权？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-account"
+  },
+  {
+    "qid": "q164",
+    "question": "服务器挂了多久要有人处理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-ops"
+  },
+  {
+    "qid": "q165",
+    "question": "改数据库结构有什么注意事项？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "it"
+    ],
+    "gold_doc": "acme-ops"
+  },
+  {
+    "qid": "q166",
+    "question": "代码合并之前要过几关？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-code"
+  },
+  {
+    "qid": "q167",
+    "question": "提交记录里不能出现什么东西？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-code"
+  },
+  {
+    "qid": "q168",
+    "question": "新功能上线出问题第一步做什么？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "rd"
+    ],
+    "gold_doc": "acme-release"
+  },
+  {
+    "qid": "q169",
+    "question": "客户资料算什么级别的数据？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-dataclass"
+  },
+  {
+    "qid": "q170",
+    "question": "密钥材料归到哪一级？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-dataclass"
+  },
+  {
+    "qid": "q171",
+    "question": "数据能随便发给合作方吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-dataclass"
+  },
+  {
+    "qid": "q172",
+    "question": "被黑客攻击算几级事件？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "security"
+    ],
+    "gold_doc": "acme-incident"
+  },
+  {
+    "qid": "q173",
+    "question": "签合同要盖什么章？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-contract"
+  },
+  {
+    "qid": "q174",
+    "question": "合同条款改了要不要重新走审批？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-contract"
+  },
+  {
+    "qid": "q175",
+    "question": "收集用户信息之前要不要告知？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-privacy"
+  },
+  {
+    "qid": "q176",
+    "question": "刷脸的信息属于什么类别？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "legal"
+    ],
+    "gold_doc": "acme-privacy"
+  },
+  {
+    "qid": "q177",
+    "question": "想成为供应商要审什么？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-supplier"
+  },
+  {
+    "qid": "q178",
+    "question": "供应商老是延期交货会怎样？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-supplier"
+  },
+  {
+    "qid": "q179",
+    "question": "库房温度湿度有没有要求？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-warehouse"
+  },
+  {
+    "qid": "q180",
+    "question": "没有出库单能放行吗？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-warehouse"
+  },
+  {
+    "qid": "q181",
+    "question": "客户投诉多久要给答复？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-service"
+  },
+  {
+    "qid": "q182",
+    "question": "质量问题的退换货运费谁承担？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-service"
+  },
+  {
+    "qid": "q183",
+    "question": "来料抽检没过怎么办？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-quality"
+  },
+  {
+    "qid": "q184",
+    "question": "隔离的不合格品能混进合格区吗？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff"
+    ],
+    "gold_doc": "globex-quality"
+  },
+  {
+    "qid": "q185",
+    "question": "外币敞口怎么管？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-settlement"
+  },
+  {
+    "qid": "q186",
+    "question": "反洗钱筛查是必须做的吗？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-settlement"
+  },
+  {
+    "qid": "q187",
+    "question": "存货跌价准备怎么计提？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-inventory"
+  },
+  {
+    "qid": "q188",
+    "question": "积压的库存怎么处置？",
+    "tenant_id": "globex",
+    "groups": [
+      "staff",
+      "finance"
+    ],
+    "gold_doc": "globex-inventory"
+  },
+  {
+    "qid": "q189",
+    "question": "公积金缴纳基数怎么定？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-welfare"
+  },
+  {
+    "qid": "q190",
+    "question": "员工结婚公司有礼金吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-welfare"
+  },
+  {
+    "qid": "q191",
+    "question": "生孩子能休多长时间假？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q192",
+    "question": "陪产假多久之内要用掉？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q193",
+    "question": "上班迟到会被扣钱吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q194",
+    "question": "周末加班能换成调休吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-leave"
+  },
+  {
+    "qid": "q195",
+    "question": "会议室需要提前预定吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-conduct"
+  },
+  {
+    "qid": "q196",
+    "question": "入职第一周要干些什么？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-onboarding"
+  },
+  {
+    "qid": "q197",
+    "question": "试用期没通过会怎么样？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-onboarding"
+  },
+  {
+    "qid": "q198",
+    "question": "预算不够了能先把钱花了吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-budget"
+  },
+  {
+    "qid": "q199",
+    "question": "比价要找几家供应商？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-procurement"
+  },
+  {
+    "qid": "q200",
+    "question": "电子发票可以报销吗？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-invoice"
+  },
+  {
+    "qid": "q201",
+    "question": "发票内容写得太笼统行不行？",
+    "tenant_id": "acme",
+    "groups": [
+      "public",
+      "finance"
+    ],
+    "gold_doc": "acme-invoice"
+  },
+  {
+    "qid": "q202",
+    "question": "忘记电脑开机密码怎么办？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-se-baseline"
+  },
+  {
+    "qid": "q203",
+    "question": "收到可疑链接应该怎么处理？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-se-baseline"
+  },
+  {
+    "qid": "q204",
+    "question": "公司手册多久更新一次？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  },
+  {
+    "qid": "q205",
+    "question": "一年累计旷工多少天会被辞退？",
+    "tenant_id": "acme",
+    "groups": [
+      "public"
+    ],
+    "gold_doc": "acme-handbook"
+  }
+]

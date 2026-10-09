@@ -1,0 +1,78 @@
+{
+  "_comment": "全局配置。用 JSON 而不是 YAML，是为了维持核心链路零第三方依赖 —— pyyaml 不在标准库里。",
+
+  "db_path": "data/index.db",
+
+  "embedding": {
+    "kind": "hashing",
+    "dim": 512
+  },
+
+  "llm": {
+    "kind": "mock",
+    "model": "qwen2.5:7b-instruct",
+    "base_url": "http://localhost:11434"
+  },
+
+  "retrieval": {
+    "top_k": 5,
+    "rrf_k": 60,
+    "weights": {
+      "vector": 0.5,
+      "bm25": 0.5
+    },
+    "rerank": true
+  },
+
+  "guards": {
+    "input": {
+      "sanitize_at": 0.35,
+      "block_at": 0.7
+    },
+    "output": {
+      "min_grounding": 0.25,
+      "strict": false
+    }
+  },
+
+  "docs": [
+    { "doc_id": "acme-handbook",     "path": "data/docs/acme_handbook.md",               "title": "员工手册",                 "tenant_id": "acme", "acl_group": "public",   "sensitivity": 0 },
+    { "doc_id": "acme-leave",        "path": "data/docs/acme_leave_policy.md",           "title": "考勤与休假管理制度",       "tenant_id": "acme", "acl_group": "public",   "sensitivity": 0 },
+    { "doc_id": "acme-conduct",      "path": "data/docs/acme_workplace_conduct.md",      "title": "办公场所与行为规范",       "tenant_id": "acme", "acl_group": "public",   "sensitivity": 0 },
+    { "doc_id": "acme-se-baseline",  "path": "data/docs/acme_info_security_baseline.md", "title": "信息安全基线要求",         "tenant_id": "acme", "acl_group": "public",   "sensitivity": 1 },
+    { "doc_id": "acme-onboarding",   "path": "data/docs/acme_onboarding_guide.md",       "title": "新人入职指引",             "tenant_id": "acme", "acl_group": "public",   "sensitivity": 0 },
+    { "doc_id": "acme-welfare",      "path": "data/docs/acme_welfare_benefits.md",       "title": "员工福利与关怀办法",       "tenant_id": "acme", "acl_group": "public",   "sensitivity": 0 },
+
+    { "doc_id": "acme-travel",       "path": "data/docs/acme_travel_reimbursement.md",   "title": "差旅与费用报销标准",       "tenant_id": "acme", "acl_group": "finance",  "sensitivity": 1 },
+    { "doc_id": "acme-budget",       "path": "data/docs/acme_budget_management.md",      "title": "预算编制与执行管理办法",   "tenant_id": "acme", "acl_group": "finance",  "sensitivity": 2 },
+    { "doc_id": "acme-procurement",  "path": "data/docs/acme_procurement_payment.md",    "title": "采购申请与付款流程",       "tenant_id": "acme", "acl_group": "finance",  "sensitivity": 2 },
+    { "doc_id": "acme-invoice",      "path": "data/docs/acme_invoice_tax.md",            "title": "发票与税务合规要求",       "tenant_id": "acme", "acl_group": "finance",  "sensitivity": 1 },
+
+    { "doc_id": "acme-compensation", "path": "data/docs/acme_compensation.md",           "title": "薪酬管理制度",             "tenant_id": "acme", "acl_group": "hr",       "sensitivity": 3 },
+    { "doc_id": "acme-performance",  "path": "data/docs/acme_performance.md",            "title": "绩效管理办法",             "tenant_id": "acme", "acl_group": "hr",       "sensitivity": 2 },
+    { "doc_id": "acme-recruitment",  "path": "data/docs/acme_recruitment.md",            "title": "招聘与录用流程",           "tenant_id": "acme", "acl_group": "hr",       "sensitivity": 2 },
+    { "doc_id": "acme-training",     "path": "data/docs/acme_training_dev.md",           "title": "培训与职业发展管理办法",   "tenant_id": "acme", "acl_group": "hr",       "sensitivity": 1 },
+
+    { "doc_id": "acme-account",      "path": "data/docs/acme_account_permission.md",     "title": "账号与权限管理办法",       "tenant_id": "acme", "acl_group": "it",       "sensitivity": 2 },
+    { "doc_id": "acme-ops",          "path": "data/docs/acme_it_operations.md",          "title": "内部系统运维与故障处理规范","tenant_id": "acme", "acl_group": "it",       "sensitivity": 2 },
+    { "doc_id": "acme-device",       "path": "data/docs/acme_device_management.md",      "title": "办公设备与资产管理规范",   "tenant_id": "acme", "acl_group": "it",       "sensitivity": 1 },
+
+    { "doc_id": "acme-devprocess",   "path": "data/docs/acme_dev_process.md",            "title": "研发流程与需求管理规范",   "tenant_id": "acme", "acl_group": "rd",       "sensitivity": 1 },
+    { "doc_id": "acme-code",         "path": "data/docs/acme_code_standard.md",          "title": "代码与版本管理规范",       "tenant_id": "acme", "acl_group": "rd",       "sensitivity": 1 },
+    { "doc_id": "acme-release",      "path": "data/docs/acme_release_process.md",        "title": "上线发布与灰度流程",       "tenant_id": "acme", "acl_group": "rd",       "sensitivity": 2 },
+
+    { "doc_id": "acme-dataclass",    "path": "data/docs/acme_data_classification.md",    "title": "数据分级与保护规范",       "tenant_id": "acme", "acl_group": "security", "sensitivity": 3 },
+    { "doc_id": "acme-incident",     "path": "data/docs/acme_incident_response.md",      "title": "安全事件响应与上报流程",   "tenant_id": "acme", "acl_group": "security", "sensitivity": 3 },
+
+    { "doc_id": "acme-contract",     "path": "data/docs/acme_contract_approval.md",      "title": "合同审批与签署流程",       "tenant_id": "acme", "acl_group": "legal",    "sensitivity": 3 },
+    { "doc_id": "acme-privacy",      "path": "data/docs/acme_privacy_compliance.md",     "title": "个人信息保护与合规要求",   "tenant_id": "acme", "acl_group": "legal",    "sensitivity": 3 },
+
+    { "doc_id": "globex-supplier",   "path": "data/docs/globex_supplier.md",             "title": "供应商准入与结算条款",     "tenant_id": "globex", "acl_group": "staff",  "sensitivity": 1 },
+    { "doc_id": "globex-warehouse",  "path": "data/docs/globex_warehouse.md",            "title": "仓储与物流管理办法",       "tenant_id": "globex", "acl_group": "staff",  "sensitivity": 1 },
+    { "doc_id": "globex-service",    "path": "data/docs/globex_customer_service.md",     "title": "客户服务与投诉处理标准",   "tenant_id": "globex", "acl_group": "staff",  "sensitivity": 1 },
+    { "doc_id": "globex-quality",    "path": "data/docs/globex_quality_control.md",      "title": "质量检验与不合格品处理办法","tenant_id": "globex", "acl_group": "staff", "sensitivity": 1 },
+
+    { "doc_id": "globex-settlement", "path": "data/docs/globex_crossborder_settlement.md","title": "跨境结算与汇率风险管理",  "tenant_id": "globex", "acl_group": "finance", "sensitivity": 3 },
+    { "doc_id": "globex-inventory",  "path": "data/docs/globex_inventory_cost.md",       "title": "库存成本核算与盘点规范",   "tenant_id": "globex", "acl_group": "finance", "sensitivity": 2 }
+  ]
+}

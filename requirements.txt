@@ -1,0 +1,2 @@
+# 核心链路零依赖即可运行（参见 README）
+# 真实模型所需的依赖见 requirements-real.txt
