@@ -15,11 +15,14 @@ from __future__ import annotations
 import time
 from collections import defaultdict
 from dataclasses import dataclass, field
-from typing import Callable, Iterable
+from typing import Callable, Iterable, Optional
 
 from src.core.types import TurnContext
 
-NodeFn = Callable[[TurnContext], str | None]
+# 注意：这里必须写 Optional[str] 而不是 str | None。
+# `from __future__ import annotations` 只让**注解**延迟求值，
+# 类型别名是普通赋值语句，会立即执行；而 `X | Y`（PEP 604）要 Python 3.10+ 才支持。
+NodeFn = Callable[[TurnContext], Optional[str]]
 
 
 @dataclass(frozen=True)
