@@ -30,8 +30,11 @@ import re
 import unicodedata
 from pathlib import Path
 
-SEED_FILE = "eval/attack_set.json"
-OUT_FILE = "eval/attack_set_generated.json"
+# 路径基于脚本位置解析，这样从任意工作目录运行都能找到数据文件。
+# （原来写成相对路径，只在项目根目录下执行才有效）
+_ROOT = Path(__file__).resolve().parents[1]
+SEED_FILE = str(_ROOT / "eval" / "attack_set.json")
+OUT_FILE = str(_ROOT / "eval" / "attack_set_generated.json")
 
 # --------------------------------------------------------------------------
 # 变体包装模板：把攻击载荷伪装成文档内容 —— 这一步专门生产"间接注入"类别

@@ -65,7 +65,7 @@ def make_llm(name: str = "mock", **kw) -> LLM:
 def build_bundle(
     docs: list[DocSpec],
     *,
-    db_path: str = "data/index.db",
+    db_path: str | None = None,  # None 时回落到 config 里基于项目根解析的绝对路径
     embedding_kind: str = "hashing",
     embedding_kwargs: dict | None = None,
     llm_name: str = "mock",
@@ -84,9 +84,10 @@ def build_bundle(
     tenants 用于告诉 BM25 内存索引有哪些 (tenant, groups) 组合需要建可见集；
     生产环境里这一步应该改成按需加载，而不是全量。
     """
+    from src.config import DEFAULT_DB_PATH
     from src.pipeline.rag_graph import build_graph
 
-    conn = connect(db_path)
+    conn = connect(db_path or DEFAULT_DB_PATH)
     ingest(conn, docs)
 
     if tenants is None:

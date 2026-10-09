@@ -9,6 +9,12 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
+    # `python eval/xxx.py` 只会把 eval/ 加入 sys.path，找不到 src 包。
+    # 这里显式把仓库根目录加进去。（脚本本身也做了自愈，这里是双保险）
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+
     strategy:
       fail-fast: false
       matrix:

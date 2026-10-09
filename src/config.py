@@ -12,7 +12,11 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-DEFAULT_CONFIG_PATH = "config.json"
+# 项目根目录（src/ 的上一级）。所有默认路径都基于它解析，
+# 这样从任意工作目录启动都能正确找到 config.json 与 data/。
+_PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_CONFIG_PATH = str(_PROJECT_ROOT / "config.json")
+DEFAULT_DB_PATH = str(_PROJECT_ROOT / "data" / "index.db")
 
 
 @dataclass(frozen=True)
@@ -49,7 +53,7 @@ class GuardConfig:
 
 @dataclass(frozen=True)
 class Config:
-    db_path: str = "data/index.db"
+    db_path: str = DEFAULT_DB_PATH
     embedding: EmbeddingConfig = field(default_factory=EmbeddingConfig)
     llm: LLMConfig = field(default_factory=LLMConfig)
     retrieval: RetrievalConfig = field(default_factory=RetrievalConfig)
@@ -95,12 +99,19 @@ def load_config(path: str | Path = DEFAULT_CONFIG_PATH) -> Config:
 
 
 def docs_from_config(cfg: Config):
-    """把配置里的文档列表转成 DocSpec 列表。"""
+    """把配置里的文档列表转成 DocSpec 列表。
+
+    config.json 里写的是相对路径（便于阅读和迁移），这里统一补齐成绝对路径，
+    否则从别的目录启动会找不到数据文件。
+    """
     from src.ingest.pipeline import DocSpec
+
+    def resolve(p: str) -> str:
+        return p if Path(p).is_absolute() else str(_PROJECT_ROOT / p)
 
     return [
         DocSpec(
-            doc_id=d["doc_id"], path=d["path"], title=d["title"],
+            doc_id=d["doc_id"], path=resolve(d["path"]), title=d["title"],
             tenant_id=d["tenant_id"], acl_group=d["acl_group"],
             sensitivity=d.get("sensitivity", 0),
         )

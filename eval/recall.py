@@ -5,16 +5,22 @@
 要点：融合权重是搜出来的，不是拍脑袋定的。这一步把"我看别人这么做"
 变成"我在自己的评测集上验证过这么做更好"，面试时能讲的内容完全不同。
 
-运行： PYTHONPATH=. python eval/recall.py
+运行： python eval/recall.py
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
-from demo import DOCS
+# 让脚本可以从任意目录运行：把项目根目录加进模块搜索路径。
+# 否则 `python eval/recall.py` 只会把 eval/ 加入 sys.path，找不到 src 包。
+_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(_ROOT))
+
+from demo import DOCS  # noqa: E402
 from src.core.types import ScoredChunk
 from src.pipeline.factory import build_bundle
 from src.retriever.hybrid import HeuristicReranker, HybridRetriever
@@ -55,7 +61,7 @@ def load_qa(path: str) -> list[dict]:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--qa", default="eval/qa_set.json")
+    ap.add_argument("--qa", default=str(_ROOT / "eval" / "qa_set.json"))
     ap.add_argument("--top-k", type=int, default=5)
     ap.add_argument("--grid", default="0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0")
     ap.add_argument("--embedding", default="hashing",

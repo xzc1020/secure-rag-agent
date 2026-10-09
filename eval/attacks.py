@@ -13,11 +13,16 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-from src.core.types import Action
-from src.guards.input import InputGuard
+# 让脚本可以从任意目录运行：把项目根目录加进模块搜索路径。
+_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(_ROOT))
+
+from src.core.types import Action  # noqa: E402
+from src.guards.input import InputGuard  # noqa: E402
 
 
 @dataclass(frozen=True)
@@ -75,7 +80,7 @@ HEADER = f"{'拦截率':>9}{'攻击成功率':>11}{'误拒率':>9}{'直接拒绝
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--data", default="eval/attack_set.json",
+    ap.add_argument("--data", default=str(_ROOT / "eval" / "attack_set.json"),
                     help="攻击样本文件；tools/expand_attacks.py 生成的文件可直接用")
     ap.add_argument("--benign", default=None,
                     help="正常提问文件；缺省时从 --data 里读取，没有则为空")
